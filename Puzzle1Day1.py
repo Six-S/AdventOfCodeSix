@@ -21,7 +21,7 @@ def main():
 
     print 'OUR TOTAL IS: %s' % total
 
-#run
+#run our stuff
 if __name__ == '__main__':
     main()
 
