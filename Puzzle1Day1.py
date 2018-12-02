@@ -16,7 +16,7 @@ def main():
     #Loop over each value in the array, and for each value, add or subtract from our eventual total
     for (i, value) in enumerate(values):
         print i, value
-        total = total + value
+        total += value
         print "OUR SUM CHANGED, AND IS NOW: %s" % total
 
     print 'OUR TOTAL IS: %s' % total
