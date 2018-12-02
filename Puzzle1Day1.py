@@ -10,7 +10,7 @@ def main():
     total = 0
 
     #get our list of values from our textfile, and put them into our array as ints.
-    values = np.genfromtxt('puzzleinput.txt', autostrip=True, unpack=True, dtype=np.int)
+    values = np.genfromtxt('puzzleinput/puzzleinput.txt', autostrip=True, unpack=True, dtype=np.int)
     #print values
 
     #Loop over each value in the array, and for each value, add or subtract from our eventual total
